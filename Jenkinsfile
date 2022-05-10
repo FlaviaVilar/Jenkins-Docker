@@ -5,14 +5,14 @@ pipeline {
       steps {
         git branch: 'main', url:'https://github.com/FlaviaVilar/Jenkins-Docker/'
         sh """
-          docker build -t OlaUnicamp .
+          docker build -t olaunicamp .
         """
       }
     }
     stage("run") {
       steps {
         sh """
-          docker run --rm OlaUnicamp
+          docker run --rm olaunicamp
         """
       }
     }
