@@ -1,8 +1,8 @@
 FROM openjdk:11
 
-WORKDIR /root/OlaUnicamp
+WORKDIR /root/olaunicamp
 
-COPY OlaUnicamp.java /root/OlaUnicamp
+COPY OlaUnicamp.java /root/olaunicamp
 
 RUN javac OlaUnicamp.java  
 
