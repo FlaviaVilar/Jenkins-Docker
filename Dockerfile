@@ -1,8 +1,8 @@
 FROM openjdk:11
 
-WORKDIR /root/JenkinsDocker
+WORKDIR /root/OlaUnicamp
 
-COPY OlaUnicamp.java /root/JenkinsDocker
+COPY OlaUnicamp.java /root/OlaUnicamp
 
 RUN javac OlaUnicamp.java  
 
